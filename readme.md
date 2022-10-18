@@ -10,6 +10,12 @@ In this project I have created my Personal Portfolio,In which i have mentioned m
 
 https://veddadhichportfolio.netlify.app/
 
+## Tech Stack
+
+👉HTML
+
+👉TailwindCSS
+
 ## Screenshots
 
 ![App Screenshot](./images/Portfolio.png)
