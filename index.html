@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Ved Dadhich||Personal Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+            sm: "640px",
+
+            md: "1024px",
+
+            lg: "1280px",
+          },
+
+          extend: {
+            colors: {
+              mywhite: "#F0FFF0",
+              mygolden: "#FFB400",
+              mygrey: "#111111",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <header class="bg-mygrey body-font">
+      <div
+        class="container mx-auto flex flex-wrap p-5 py-6 flex-col md:flex-row items-center"
+      >
+        <nav
+          class="md:ml-auto flex flex-wrap items-center text-white font-medium text-lg justify-center"
+        >
+          <a class="mr-10 hover:text-mygolden" href="index.html">HOME</a>
+          <a class="mr-10 hover:text-mygolden" href="about.html">ABOUT</a>
+          <a class="mr-10 hover:text-mygolden" href="portfolio.html"
+            >PORTFOLIO</a
+          >
+          <a class="mr-10 hover:text-mygolden" href="blog.html">BLOG</a>
+        </nav>
+        <a href="contact.html">
+          <button
+            class="inline-flex text-mywhite font-medium bg-transperent border-2 items-center rounded-xl border-mygolden py-1 px-2 focus:outline-none hover:bg-mygolden rounded text-lg"
+          >
+            Contact Now &nbsp<i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </a>
+      </div>
+    </header>
+
+    <!-- Home Page -->
+    <section class="bg-mygrey body-font">
+      <div
+        class="container mx-auto flex px-5 py-6 md:flex-row flex-col items-center"
+      >
+        <div
+          class="bg-black rounded-3xl lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0"
+        >
+          <img
+            class="object-cover object-center"
+            alt="hero"
+            src="./images/ved_img.png"
+          />
+        </div>
+        <div
+          class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center"
+        >
+          <h1
+            class="title-font sm:text-5xl text-3xl mb-4 font-medium text-mygolden font-bold"
+          >
+            <i class="fa-solid fa-minus"></i>
+            I'M VED DADHICH.
+            <br class="hidden lg:inline-block" /><span
+              class="text-white font-bold pl-[56px]"
+              >WEB DEVELOPER</span
+            >
+          </h1>
+          <p class="mb-8 leading-relaxed text-mywhite max-w-lg">
+            I'm a front‑end developer focused on crafting clean & user‑friendly
+            experiences, I am passionate about building excellent software that
+            improves the lives of those around me.
+          </p>
+          <div class="flex justify-center">
+            <a href="about.html">
+              <button
+                class="inline-flex text-mywhite font-medium bg-transperent border-2 items-center rounded-xl border-mygolden py-2 px-6 focus:outline-none hover:bg-mygolden rounded text-lg"
+              >
+                More About Me &nbsp<i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

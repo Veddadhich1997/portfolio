@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Contact-Me</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com/?plugins=forms"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+            sm: "640px",
+
+            md: "1024px",
+
+            lg: "1280px",
+          },
+
+          extend: {
+            colors: {
+              mywhite: "#F0FFF0",
+              mygolden: "#FFB400",
+              mygrey: "#111111",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <header class="bg-mygrey body-font">
+      <div
+        class="container mx-auto flex flex-wrap p-5 py-6 flex-col md:flex-row items-center"
+      >
+        <nav
+          class="md:ml-auto flex flex-wrap items-center text-white font-medium text-lg justify-center"
+        >
+          <a class="mr-10 hover:text-mygolden" href="index.html">HOME</a>
+          <a class="mr-10 hover:text-mygolden" href="about.html">ABOUT</a>
+          <a class="mr-10 hover:text-mygolden" href="portfolio.html"
+            >PORTFOLIO</a
+          >
+          <a class="mr-10 hover:text-mygolden" href="blog.html">BLOG</a>
+        </nav>
+        <a href="contact.html">
+          <button
+            class="inline-flex text-mywhite font-medium bg-transperent border-2 items-center rounded-xl border-mygolden py-1 px-2 focus:outline-none hover:bg-mygolden rounded text-lg"
+          >
+            Contact Now &nbsp<i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </a>
+      </div>
+    </header>
+
+    <!-- contact section -->
+    <section class="bg-mygrey py-6">
+      <h1 class="text-mywhite text-center text-5xl font-bold">
+        GET IN <span class="text-mygolden">TOUCH</span>
+      </h1>
+      <div
+        class="grid max-w-6xl grid-cols-1 px-6 py-16 mx-auto lg:px-8 md:grid-cols-2 md:divide-x"
+      >
+        <div class="py-6 md:py-0 md:px-6">
+          <h1 class="text-4xl font-bold text-mywhite">DON'T BE SHY !</h1>
+          <p class="pt-2 pb-4 text-mywhite max-w-[40ch]">
+            Feel free to get in touch with me. I am always open to discussing
+            new projects, creative ideas or opportunities to be part of your
+            visions.
+          </p>
+          <div class="space-y-4">
+            <p class="flex items-center text-white">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                class="w-5 h-5 mr-2 text-mygolden sm:mr-6"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <span>Jhunjhunu(Rajasthan),India</span>
+            </p>
+            <p class="flex items-center text-white">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                class="w-5 h-5 mr-2 text-mygolden sm:mr-6"
+              >
+                <path
+                  d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"
+                ></path>
+              </svg>
+              <span><a href="tel:8112272370">8112272370</a></span>
+            </p>
+            <p class="flex items-center text-white">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                class="w-5 h-5 mr-2 text-mygolden sm:mr-6"
+              >
+                <path
+                  d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
+                ></path>
+                <path
+                  d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"
+                ></path>
+              </svg>
+              <span>dadhichved1997@gmail.com</span>
+            </p>
+          </div>
+          <div class="text-white text-2xl pt-4">
+            <a class="hover:text-mygolden"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a class="hover:text-mygolden"
+              ><i class="fa-brands fa-instagram ml-2"></i
+            ></a>
+            <a class="hover:text-mygolden"
+              ><i class="fa-brands fa-linkedin ml-2"></i
+            ></a>
+            <a class="hover:text-mygolden"
+              ><i class="fa-brands fa-whatsapp ml-2"></i
+            ></a>
+          </div>
+        </div>
+        <form
+          novalidate=""
+          class="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid"
+        >
+          <label class="block">
+            <span class="mb-1 text-mywhite">Full name</span>
+            <input
+              type="text"
+              placeholder="Enter Your Full Name"
+              class="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-800"
+            />
+          </label>
+          <label class="block">
+            <span class="mb-1 text-mywhite">Email address</span>
+            <input
+              type="email"
+              placeholder="Enter Your Email Address"
+              class="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-800"
+            />
+          </label>
+          <label class="block">
+            <span class="mb-1 text-mywhite">Message</span>
+            <textarea
+              rows="3"
+              class="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-gray-800"
+            ></textarea>
+          </label>
+          <button
+            type="button"
+            class="self-center px-8 py-2 text-lg text-white font-bold rounded-xl border-2 border-mygolden hover:bg-mygolden"
+          >
+            Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

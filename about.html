@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>About-Me</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+            sm: "640px",
+
+            md: "1024px",
+
+            lg: "1280px",
+          },
+
+          extend: {
+            colors: {
+              mywhite: "#F0FFF0",
+              mygolden: "#FFB400",
+              mygrey: "#111111",
+              mygrey1: "#797979",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <header class="bg-mygrey body-font">
+      <div
+        class="container mx-auto flex flex-wrap p-5 py-6 flex-col md:flex-row items-center"
+      >
+        <nav
+          class="md:ml-auto flex flex-wrap items-center text-white font-medium text-lg justify-center"
+        >
+          <a class="mr-10 hover:text-mygolden" href="index.html">HOME</a>
+          <a class="mr-10 hover:text-mygolden" href="about.html">ABOUT</a>
+          <a class="mr-10 hover:text-mygolden" href="portfolio.html"
+            >PORTFOLIO</a
+          >
+          <a class="mr-10 hover:text-mygolden" href="blog.html">BLOG</a>
+        </nav>
+        <a href="contact.html">
+          <button
+            class="inline-flex text-mywhite font-medium bg-transperent border-2 items-center rounded-xl border-mygolden py-1 px-2 focus:outline-none hover:bg-mygolden rounded text-lg"
+          >
+            Contact Now &nbsp<i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </a>
+      </div>
+    </header>
+
+    <section class="bg-mygrey body-font">
+      <h1 class="text-mywhite text-center text-5xl font-bold">
+        ABOUT <span class="text-mygolden">ME</span>
+      </h1>
+      <div
+        class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
+      >
+        <div
+          class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
+        >
+          <h1
+            class="title-font sm:text-3xl text-xl mb-4 font-bold text-mywhite"
+          >
+            PERSONAL INFOS
+          </h1>
+          <div class="flex flex-row my-8">
+            <div class="w-1/2">
+              <p class="text-mygrey1 font-semibold text-lg py-[5px]">
+                First Name: <span class="text-white text-md">Ved</span>
+              </p>
+              <p class="text-mygrey1 font-semibold text-lg py-[5px]">
+                Last Name: <span class="text-white text-md">Dadhich</span>
+              </p>
+              <p class="text-mygrey1 font-semibold text-lg py-[5px]">
+                Age: <span class="text-white text-md">26 Years</span>
+              </p>
+              <p class="text-mygrey1 font-semibold text-lg py-[5px]">
+                Nationality: <span class="text-white text-md">Indian</span>
+              </p>
+            </div>
+            <div class="w-1/2">
+              <p class="text-mygrey1 font-semibold text-lg">
+                Address: <span class="text-white text-md">Rajasthan</span>
+              </p>
+              <p class="text-mygrey1 font-semibold text-lg">
+                Phone: <span class="text-white text-md">8112272370</span>
+              </p>
+              <p class="text-mygrey1 font-semibold text-lg">
+                Email:
+                <span class="text-white text-md">dadhichved1997@gmail.com</span>
+              </p>
+              <p class="text-mygrey1 font-semibold text-lg">
+                Languages: <span class="text-white text-md">Hindi,English</span>
+              </p>
+            </div>
+          </div>
+          <div class="flex justify-center">
+            <button
+              class="inline-flex text-mywhite font-medium bg-transperent border-2 items-center rounded-xl border-mygolden py-2 px-6 focus:outline-none hover:bg-mygolden rounded text-lg"
+            >
+              Download CV &nbsp<i class="fa-solid fa-download"></i>
+            </button>
+          </div>
+        </div>
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          <div class="space-y-8">
+            <h1
+              class="title-font sm:text-3xl text-xl mb-4 font-bold text-mywhite"
+            >
+              QUALIFICATIONS
+            </h1>
+            <div>
+              <h3 class="mb-3 text-lg text-white font-bold md:text-xl">2021</h3>
+              <ul class="space-y-4">
+                <li class="space-y-1">
+                  <div class="flex items-center space-x-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                      class="w-4 h-4 fill-current text-mygolden dark:text-violet-400"
+                    >
+                      <path
+                        d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"
+                      ></path>
+                      <polygon
+                        points="221.27 305.808 147.857 232.396 125.23 255.023 221.27 351.063 388.77 183.564 366.142 160.937 221.27 305.808"
+                      ></polygon>
+                    </svg>
+                    <h4 class="text-white font-medium">
+                      MCA - <span>RTU , Kota(Rajasthan)</span>
+                    </h4>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="mb-3 text-lg text-white font-bold md:text-xl">2018</h3>
+              <ul class="space-y-4">
+                <li class="space-y-1">
+                  <div class="flex items-center space-x-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                      class="w-4 h-4 fill-current text-mygolden dark:text-violet-400"
+                    >
+                      <path
+                        d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"
+                      ></path>
+                      <polygon
+                        points="221.27 305.808 147.857 232.396 125.23 255.023 221.27 351.063 388.77 183.564 366.142 160.937 221.27 305.808"
+                      ></polygon>
+                    </svg>
+                    <h4 class="text-white font-medium">
+                      BSc -
+                      <span>Rajasthan Univercity , Jaipur(Rajasthan)</span>
+                    </h4>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="mb-3 text-lg text-white font-bold md:text-xl">2021</h3>
+              <ul class="space-y-4">
+                <li class="space-y-1">
+                  <div class="flex items-center space-x-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                      class="w-4 h-4 fill-current text-mygolden dark:text-violet-400"
+                    >
+                      <path
+                        d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"
+                      ></path>
+                      <polygon
+                        points="221.27 305.808 147.857 232.396 125.23 255.023 221.27 351.063 388.77 183.564 366.142 160.937 221.27 305.808"
+                      ></polygon>
+                    </svg>
+                    <h4 class="text-white font-medium">
+                      SSC - <span>BSER(Rajasthan)</span>
+                    </h4>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

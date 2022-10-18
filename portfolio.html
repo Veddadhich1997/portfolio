@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+            sm: "640px",
+
+            md: "1024px",
+
+            lg: "1280px",
+          },
+
+          extend: {
+            colors: {
+              mywhite: "#F0FFF0",
+              mygolden: "#FFB400",
+              mygrey: "#111111",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <header class="bg-mygrey body-font">
+      <div
+        class="container mx-auto flex flex-wrap p-5 py-6 flex-col md:flex-row items-center"
+      >
+        <nav
+          class="md:ml-auto flex flex-wrap items-center text-white font-medium text-lg justify-center"
+        >
+          <a class="mr-10 hover:text-mygolden" href="index.html">HOME</a>
+          <a class="mr-10 hover:text-mygolden" href="about.html">ABOUT</a>
+          <a class="mr-10 hover:text-mygolden" href="portfolio.html"
+            >PORTFOLIO</a
+          >
+          <a class="mr-10 hover:text-mygolden" href="blog.html">BLOG</a>
+        </nav>
+        <a href="contact.html">
+          <button
+            class="inline-flex text-mywhite font-medium bg-transperent border-2 items-center rounded-xl border-mygolden py-1 px-2 focus:outline-none hover:bg-mygolden rounded text-lg"
+          >
+            Contact Now &nbsp<i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </a>
+      </div>
+    </header>
+
+    <!-- portfolio section -->
+    <section class="bg-mygrey sm:py-12">
+      <h1 class="text-mywhite text-center text-5xl font-bold">
+        MY <span class="text-mygolden">PORTFOLIO</span>
+      </h1>
+      <div class="container p-6 mx-auto space-y-8">
+        <div
+          class="grid grid-cols-1 gap-x-4 gap-y-8 md:grid-cols-2 lg:grid-cols-4"
+        >
+          <article class="flex flex-col dark:bg-gray-900">
+            <a
+              rel="noopener noreferrer"
+              href="https://rodeclone1.netlify.app"
+              aria-label="Te nulla oportere reprimique his dolorum"
+            >
+              <img
+                alt=""
+                class="object-cover w-full h-52 dark:bg-gray-500"
+                src="./images/rode.png"
+              />
+            </a>
+          </article>
+          <article class="flex flex-col dark:bg-gray-900">
+            <a
+              rel="noopener noreferrer"
+              href="https://paytmclone2.netlify.app"
+              aria-label="Te nulla oportere reprimique his dolorum"
+            >
+              <img
+                alt=""
+                class="object-cover w-full h-52 dark:bg-gray-500"
+                src="./images/paytm.png"
+              />
+            </a>
+          </article>
+          <article class="flex flex-col dark:bg-gray-900">
+            <a
+              rel="noopener noreferrer"
+              href="https://shopifyclone1.netlify.app"
+              aria-label="Te nulla oportere reprimique his dolorum"
+            >
+              <img
+                alt=""
+                class="object-cover w-full h-52 dark:bg-gray-500"
+                src="./images/shopify.png"
+              />
+            </a>
+          </article>
+          <article class="flex flex-col dark:bg-gray-900">
+            <a
+              rel="noopener noreferrer"
+              href="https://streetstylelandingpage1.netlify.app"
+              aria-label="Te nulla oportere reprimique his dolorum"
+            >
+              <img
+                alt=""
+                class="object-cover w-full h-52 dark:bg-gray-500"
+                src="./images/1.png"
+              />
+            </a>
+          </article>
+          <article class="flex flex-col dark:bg-gray-900">
+            <a
+              rel="noopener noreferrer"
+              href="https://foodrestauranthomepage.netlify.app"
+              aria-label="Te nulla oportere reprimique his dolorum"
+            >
+              <img
+                alt=""
+                class="object-cover w-full h-52 dark:bg-gray-500"
+                src="./images/2.png"
+              />
+            </a>
+          </article>
+          <article class="flex flex-col dark:bg-gray-900">
+            <a
+              rel="noopener noreferrer"
+              href="https://lawhomepage1.netlify.app"
+              aria-label="Te nulla oportere reprimique his dolorum"
+            >
+              <img
+                alt=""
+                class="object-cover w-full h-52 dark:bg-gray-500"
+                src="./images/3.png"
+              />
+            </a>
+          </article>
+          <article class="flex flex-col dark:bg-gray-900">
+            <a
+              rel="noopener noreferrer"
+              href="https://digitalmarketinghomepage1.netlify.app"
+              aria-label="Te nulla oportere reprimique his dolorum"
+            >
+              <img
+                alt=""
+                class="object-cover w-full h-52 dark:bg-gray-500"
+                src="./images/4.png"
+              />
+            </a>
+          </article>
+          <article class="flex flex-col dark:bg-gray-900">
+            <a
+              rel="noopener noreferrer"
+              href="https://cryptolandingpage1.netlify.app"
+              aria-label="Te nulla oportere reprimique his dolorum"
+            >
+              <img
+                alt=""
+                class="object-cover w-full h-52 dark:bg-gray-500"
+                src="./images/5.png"
+              />
+            </a>
+          </article>
+          <article class="flex flex-col dark:bg-gray-900">
+            <a
+              rel="noopener noreferrer"
+              href="https://planthomepage1.netlify.app"
+              aria-label="Te nulla oportere reprimique his dolorum"
+            >
+              <img
+                alt=""
+                class="object-cover w-full h-52 dark:bg-gray-500"
+                src="./images/6.png"
+              />
+            </a>
+          </article>
+          <article class="flex flex-col dark:bg-gray-900">
+            <a
+              rel="noopener noreferrer"
+              href="https://producthomepage1.netlify.app"
+              aria-label="Te nulla oportere reprimique his dolorum"
+            >
+              <img
+                alt=""
+                class="object-cover w-full h-52 dark:bg-gray-500"
+                src="./images/7.png"
+              />
+            </a>
+          </article>
+          <article class="flex flex-col dark:bg-gray-900">
+            <a
+              rel="noopener noreferrer"
+              href="https://webdesignlandingpage1.netlify.app"
+              aria-label="Te nulla oportere reprimique his dolorum"
+            >
+              <img
+                alt=""
+                class="object-cover w-full h-52 dark:bg-gray-500"
+                src="./images/8.png"
+              />
+            </a>
+          </article>
+          <article class="flex flex-col dark:bg-gray-900">
+            <a
+              rel="noopener noreferrer"
+              href="https://developerlandingpage1.netlify.app"
+              aria-label="Te nulla oportere reprimique his dolorum"
+            >
+              <img
+                alt=""
+                class="object-cover w-full h-52 dark:bg-gray-500"
+                src="./images/9.png"
+              />
+            </a>
+          </article>
+          <article class="flex flex-col dark:bg-gray-900">
+            <a
+              rel="noopener noreferrer"
+              href="https://interiordesignlandingpage1.netlify.app"
+              aria-label="Te nulla oportere reprimique his dolorum"
+            >
+              <img
+                alt=""
+                class="object-cover w-full h-52 dark:bg-gray-500"
+                src="./images/10.png"
+              />
+            </a>
+          </article>
+          <article class="flex flex-col dark:bg-gray-900">
+            <a
+              rel="noopener noreferrer"
+              href="https://hostinglandingpage1.netlify.app"
+              aria-label="Te nulla oportere reprimique his dolorum"
+            >
+              <img
+                alt=""
+                class="object-cover w-full h-52 dark:bg-gray-500"
+                src="./images/11.png"
+              />
+            </a>
+          </article>
+          <article class="flex flex-col dark:bg-gray-900">
+            <a
+              rel="noopener noreferrer"
+              href="https://businesslandingpage1.netlify.app/"
+              aria-label="Te nulla oportere reprimique his dolorum"
+            >
+              <img
+                alt=""
+                class="object-cover w-full h-52 dark:bg-gray-500"
+                src="./images/12.png"
+              />
+            </a>
+          </article>
+          <article class="flex flex-col dark:bg-gray-900">
+            <a
+              rel="noopener noreferrer"
+              href="https://saaslandingpage3.netlify.app"
+              aria-label="Te nulla oportere reprimique his dolorum"
+            >
+              <img
+                alt=""
+                class="object-cover w-full h-52 dark:bg-gray-500"
+                src="./images/13.png"
+              />
+            </a>
+          </article>
+          <article class="flex flex-col dark:bg-gray-900">
+            <a
+              rel="noopener noreferrer"
+              href="https://dancehomepage1.netlify.app"
+              aria-label="Te nulla oportere reprimique his dolorum"
+            >
+              <img
+                alt=""
+                class="object-cover w-full h-52 dark:bg-gray-500"
+                src="./images/14.png"
+              />
+            </a>
+          </article>
+          <article class="flex flex-col dark:bg-gray-900">
+            <a
+              rel="noopener noreferrer"
+              href="https://productdesignlandingpage1.netlify.app"
+              aria-label="Te nulla oportere reprimique his dolorum"
+            >
+              <img
+                alt=""
+                class="object-cover w-full h-52 dark:bg-gray-500"
+                src="./images/15.png"
+              />
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

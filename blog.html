@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Blogs</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+            sm: "640px",
+
+            md: "1024px",
+
+            lg: "1280px",
+          },
+
+          extend: {
+            colors: {
+              mywhite: "#F0FFF0",
+              mygolden: "#FFB400",
+              mygrey: "#111111",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <header class="bg-mygrey body-font">
+      <div
+        class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
+      >
+        <nav
+          class="md:ml-auto flex flex-wrap items-center text-white font-medium text-lg justify-center"
+        >
+          <a class="mr-10 hover:text-mygolden" href="index.html">HOME</a>
+          <a class="mr-10 hover:text-mygolden" href="about.html">ABOUT</a>
+          <a class="mr-10 hover:text-mygolden" href="portfolio.html"
+            >PORTFOLIO</a
+          >
+          <a class="mr-10 hover:text-mygolden" href="blog.html">BLOG</a>
+        </nav>
+        <a href="contact.html">
+          <button
+            class="inline-flex text-mywhite font-medium bg-transperent border-2 items-center rounded-xl border-mygolden py-1 px-2 focus:outline-none hover:bg-mygolden rounded text-lg"
+          >
+            Contact Now &nbsp<i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </a>
+      </div>
+    </header>
+
+    <!-- blogs section-->
+    <section class="py-6 sm: bg-mygrey">
+      <h1 class="text-mywhite text-center text-5xl font-bold my-8">
+        MY <span class="text-mygolden">Blogs</span>
+      </h1>
+      <div class="container p-6 mx-auto space-y-8">
+        <div
+          class="grid grid-cols-1 gap-x-4 gap-y-8 md:grid-cols-2 lg:grid-cols-4"
+        >
+          <article class="flex flex-col dark:bg-gray-900">
+            <a
+              rel="noopener noreferrer"
+              href="https://veddadhich1997.hashnode.dev/8j2qhpcdkkwnzce8j2qqcdkllwnzct8j2qofcdkklwnzcn8j2qocdwnzcw8j2qofcdkklwnzcc8j2qosdwnzcy8j2qqpcdkk4g8j2qofcdkjrwnzcv8j2qnidwnzct8j2qqcdwnzck8j2qpcdkkjwnzcwipcdkjrwnzcb8j2qqpcdkk7wnzctipcdkidwnzcr8j2qqcdkjrwnzcyipcdkjrwnzcn8j2qnsdwnzci8j2qrsfwnzcsipcdkizwnzce8j2qrfcdkkhwnzco8j2qnfcdkkwg8j2qovcdkkcg8j2qifcdkjrwnzcv8j2qmvcdkkzwnzcc8j2qqcdkklwnzcp8j2qrq"
+              aria-label="Te nulla oportere reprimique his dolorum"
+            >
+              <img
+                alt=""
+                class="object-cover w-full h-52 dark:bg-gray-500"
+                src="./images/arraymethod.jpg"
+              />
+            </a>
+            <div class="flex flex-col flex-1 p-6">
+              <a
+                rel="noopener noreferrer"
+                href="https://veddadhich1997.hashnode.dev/8j2qhpcdkkwnzce8j2qqcdkllwnzct8j2qofcdkklwnzcn8j2qocdwnzcw8j2qofcdkklwnzcc8j2qosdwnzcy8j2qqpcdkk4g8j2qofcdkjrwnzcv8j2qnidwnzct8j2qqcdwnzck8j2qpcdkkjwnzcwipcdkjrwnzcb8j2qqpcdkk7wnzctipcdkidwnzcr8j2qqcdkjrwnzcyipcdkjrwnzcn8j2qnsdwnzci8j2qrsfwnzcsipcdkizwnzce8j2qrfcdkkhwnzco8j2qnfcdkkwg8j2qovcdkkcg8j2qifcdkjrwnzcv8j2qmvcdkkzwnzcc8j2qqcdkklwnzcp8j2qrq"
+                aria-label="Te nulla oportere reprimique his dolorum"
+              >
+                <h3
+                  class="flex-1 py-2 text-lg text-mywhite font-semibold leading-snug hover:text-mygolden"
+                >
+                  𝐄𝐯𝐞𝐫𝐲𝐭𝐡𝐢𝐧𝐠 𝐖𝐡𝐢𝐜𝐡 𝐘𝐨𝐮 𝐡𝐚𝐯𝐞 𝐭𝐨 𝐤𝐧𝐨𝐰 𝐚𝐛𝐨𝐮𝐭 𝐀𝐫𝐫𝐚𝐲 𝐚𝐧𝐝 𝐢𝐭'𝐬 𝐌𝐞𝐭𝐡𝐨𝐝𝐬
+                  𝐢𝐧 𝐉𝐚𝐯𝐚𝐬𝐜𝐫𝐢𝐩𝐭
+                </h3>
+              </a>
+            </div>
+          </article>
+          <article class="flex flex-col dark:bg-gray-900">
+            <a
+              rel="noopener noreferrer"
+              href="https://veddadhich1997.hashnode.dev/8j2qhpcdkkwnzce8j2qqcdkllwnzct8j2qofcdkklwnzcn8j2qocdwnzcw8j2qofcdkklwnzcc8j2qosdwnzcy8j2qqpcdkk4g8j2qofcdkjrwnzcv8j2qnidwnzct8j2qqcdwnzck8j2qpcdkkjwnzcwipcdkjrwnzcb8j2qqpcdkk7wnzctipcdkidwnzcr8j2qqcdkjrwnzcyipcdkjrwnzcn8j2qnsdwnzci8j2qrsfwnzcsipcdkizwnzce8j2qrfcdkkhwnzco8j2qnfcdkkwg8j2qovcdkkcg8j2qifcdkjrwnzcv8j2qmvcdkkzwnzcc8j2qqcdkklwnzcp8j2qrq"
+              aria-label="Te nulla oportere reprimique his dolorum"
+            >
+              <img
+                alt=""
+                class="object-cover w-full h-52 dark:bg-gray-500"
+                src="./images/arraymethod.jpg"
+              />
+            </a>
+            <div class="flex flex-col flex-1 p-6">
+              <a
+                rel="noopener noreferrer"
+                href="https://veddadhich1997.hashnode.dev/8j2qhpcdkkwnzce8j2qqcdkllwnzct8j2qofcdkklwnzcn8j2qocdwnzcw8j2qofcdkklwnzcc8j2qosdwnzcy8j2qqpcdkk4g8j2qofcdkjrwnzcv8j2qnidwnzct8j2qqcdwnzck8j2qpcdkkjwnzcwipcdkjrwnzcb8j2qqpcdkk7wnzctipcdkidwnzcr8j2qqcdkjrwnzcyipcdkjrwnzcn8j2qnsdwnzci8j2qrsfwnzcsipcdkizwnzce8j2qrfcdkkhwnzco8j2qnfcdkkwg8j2qovcdkkcg8j2qifcdkjrwnzcv8j2qmvcdkkzwnzcc8j2qqcdkklwnzcp8j2qrq"
+                aria-label="Te nulla oportere reprimique his dolorum"
+              >
+                <h3
+                  class="flex-1 py-2 text-lg text-mywhite font-semibold leading-snug"
+                >
+                  𝐄𝐯𝐞𝐫𝐲𝐭𝐡𝐢𝐧𝐠 𝐖𝐡𝐢𝐜𝐡 𝐘𝐨𝐮 𝐡𝐚𝐯𝐞 𝐭𝐨 𝐤𝐧𝐨𝐰 𝐚𝐛𝐨𝐮𝐭 𝐀𝐫𝐫𝐚𝐲 𝐚𝐧𝐝 𝐢𝐭'𝐬 𝐌𝐞𝐭𝐡𝐨𝐝𝐬
+                  𝐢𝐧 𝐉𝐚𝐯𝐚𝐬𝐜𝐫𝐢𝐩𝐭
+                </h3>
+              </a>
+            </div>
+          </article>
+          <article class="flex flex-col dark:bg-gray-900">
+            <a
+              rel="noopener noreferrer"
+              href="https://veddadhich1997.hashnode.dev/8j2qhpcdkkwnzce8j2qqcdkllwnzct8j2qofcdkklwnzcn8j2qocdwnzcw8j2qofcdkklwnzcc8j2qosdwnzcy8j2qqpcdkk4g8j2qofcdkjrwnzcv8j2qnidwnzct8j2qqcdwnzck8j2qpcdkkjwnzcwipcdkjrwnzcb8j2qqpcdkk7wnzctipcdkidwnzcr8j2qqcdkjrwnzcyipcdkjrwnzcn8j2qnsdwnzci8j2qrsfwnzcsipcdkizwnzce8j2qrfcdkkhwnzco8j2qnfcdkkwg8j2qovcdkkcg8j2qifcdkjrwnzcv8j2qmvcdkkzwnzcc8j2qqcdkklwnzcp8j2qrq"
+              aria-label="Te nulla oportere reprimique his dolorum"
+            >
+              <img
+                alt=""
+                class="object-cover w-full h-52 dark:bg-gray-500"
+                src="./images/arraymethod.jpg"
+              />
+            </a>
+            <div class="flex flex-col flex-1 p-6">
+              <a
+                rel="noopener noreferrer"
+                href="https://veddadhich1997.hashnode.dev/8j2qhpcdkkwnzce8j2qqcdkllwnzct8j2qofcdkklwnzcn8j2qocdwnzcw8j2qofcdkklwnzcc8j2qosdwnzcy8j2qqpcdkk4g8j2qofcdkjrwnzcv8j2qnidwnzct8j2qqcdwnzck8j2qpcdkkjwnzcwipcdkjrwnzcb8j2qqpcdkk7wnzctipcdkidwnzcr8j2qqcdkjrwnzcyipcdkjrwnzcn8j2qnsdwnzci8j2qrsfwnzcsipcdkizwnzce8j2qrfcdkkhwnzco8j2qnfcdkkwg8j2qovcdkkcg8j2qifcdkjrwnzcv8j2qmvcdkkzwnzcc8j2qqcdkklwnzcp8j2qrq"
+                aria-label="Te nulla oportere reprimique his dolorum"
+              >
+                <h3
+                  class="flex-1 py-2 text-lg text-mywhite font-semibold leading-snug"
+                >
+                  𝐄𝐯𝐞𝐫𝐲𝐭𝐡𝐢𝐧𝐠 𝐖𝐡𝐢𝐜𝐡 𝐘𝐨𝐮 𝐡𝐚𝐯𝐞 𝐭𝐨 𝐤𝐧𝐨𝐰 𝐚𝐛𝐨𝐮𝐭 𝐀𝐫𝐫𝐚𝐲 𝐚𝐧𝐝 𝐢𝐭'𝐬 𝐌𝐞𝐭𝐡𝐨𝐝𝐬
+                  𝐢𝐧 𝐉𝐚𝐯𝐚𝐬𝐜𝐫𝐢𝐩𝐭
+                </h3>
+              </a>
+            </div>
+          </article>
+          <article class="flex flex-col dark:bg-gray-900">
+            <a
+              rel="noopener noreferrer"
+              href="https://veddadhich1997.hashnode.dev/8j2qhpcdkkwnzce8j2qqcdkllwnzct8j2qofcdkklwnzcn8j2qocdwnzcw8j2qofcdkklwnzcc8j2qosdwnzcy8j2qqpcdkk4g8j2qofcdkjrwnzcv8j2qnidwnzct8j2qqcdwnzck8j2qpcdkkjwnzcwipcdkjrwnzcb8j2qqpcdkk7wnzctipcdkidwnzcr8j2qqcdkjrwnzcyipcdkjrwnzcn8j2qnsdwnzci8j2qrsfwnzcsipcdkizwnzce8j2qrfcdkkhwnzco8j2qnfcdkkwg8j2qovcdkkcg8j2qifcdkjrwnzcv8j2qmvcdkkzwnzcc8j2qqcdkklwnzcp8j2qrq"
+              aria-label="Te nulla oportere reprimique his dolorum"
+            >
+              <img
+                alt=""
+                class="object-cover w-full h-52 dark:bg-gray-500"
+                src="./images/arraymethod.jpg"
+              />
+            </a>
+            <div class="flex flex-col flex-1 p-6">
+              <a
+                rel="noopener noreferrer"
+                href="https://veddadhich1997.hashnode.dev/8j2qhpcdkkwnzce8j2qqcdkllwnzct8j2qofcdkklwnzcn8j2qocdwnzcw8j2qofcdkklwnzcc8j2qosdwnzcy8j2qqpcdkk4g8j2qofcdkjrwnzcv8j2qnidwnzct8j2qqcdwnzck8j2qpcdkkjwnzcwipcdkjrwnzcb8j2qqpcdkk7wnzctipcdkidwnzcr8j2qqcdkjrwnzcyipcdkjrwnzcn8j2qnsdwnzci8j2qrsfwnzcsipcdkizwnzce8j2qrfcdkkhwnzco8j2qnfcdkkwg8j2qovcdkkcg8j2qifcdkjrwnzcv8j2qmvcdkkzwnzcc8j2qqcdkklwnzcp8j2qrq"
+                aria-label="Te nulla oportere reprimique his dolorum"
+              >
+                <h3
+                  class="flex-1 py-2 text-lg text-mywhite font-semibold leading-snug"
+                >
+                  𝐄𝐯𝐞𝐫𝐲𝐭𝐡𝐢𝐧𝐠 𝐖𝐡𝐢𝐜𝐡 𝐘𝐨𝐮 𝐡𝐚𝐯𝐞 𝐭𝐨 𝐤𝐧𝐨𝐰 𝐚𝐛𝐨𝐮𝐭 𝐀𝐫𝐫𝐚𝐲 𝐚𝐧𝐝 𝐢𝐭'𝐬 𝐌𝐞𝐭𝐡𝐨𝐝𝐬
+                  𝐢𝐧 𝐉𝐚𝐯𝐚𝐬𝐜𝐫𝐢𝐩𝐭
+                </h3>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
